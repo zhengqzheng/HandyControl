@@ -47,7 +47,7 @@ namespace HandyControlDemo.Properties.Langs {
         }
         
         /// <summary>
-        ///   重写当前线程的 CurrentUICulture 属性
+        ///   使用此强类型资源类，为所有资源查找
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -655,6 +655,15 @@ namespace HandyControlDemo.Properties.Langs {
         }
         
         /// <summary>
+        ///   查找类似 点击打开自定义消息窗口 的本地化字符串。
+        /// </summary>
+        public static string OpenCustomMessageWindow {
+            get {
+                return ResourceManager.GetString("OpenCustomMessageWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 点击打开自定义非客户端区域窗口 的本地化字符串。
         /// </summary>
         public static string OpenCustomNonClientAreaWindow {
@@ -1083,6 +1092,15 @@ namespace HandyControlDemo.Properties.Langs {
         public static string ToolBar {
             get {
                 return ResourceManager.GetString("ToolBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 穿梭框 的本地化字符串。
+        /// </summary>
+        public static string Transfer {
+            get {
+                return ResourceManager.GetString("Transfer", resourceCulture);
             }
         }
         
